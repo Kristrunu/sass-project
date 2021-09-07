@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap'); 
+
+@font-face {
+  font-family: 'made_bon_voyage_thin';
+  src: url('/Fonts/made_bon_voyage_thin-webfont.woff2') format('woff2'),
+       url('/Fonts/made_bon_voyage_thin-webfont.woff') format('woff');
+  font-weight:lighter;
+  font-style: normal;
+  }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'made_bon_voyage_thin','Cormorant Garamond', serif;
+    border: 1px;
+    background-color: rgb(235, 231, 224);
+}
+
+.website {
+    justify-content: center;
+    margin: auto;
+    max-width: 1000px;
+    background-color: white;
+    box-shadow: 1px 1px 19px -2px rgba(0, 0, 0, 0.39);
+}
+
+.menu {
+    background-color: rgb(226, 226, 213);
+    display: flex;
+    justify-content: space-evenly;
+    letter-spacing: .15em;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    font-weight: 500;
+}
+  
+  .menu li {
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #000000;
+    padding: .5rem;
+  }
+  
+  .menu a:hover{
+    color: #000000;
+    background-color: #9da996;
+    padding: .5rem;
+  }
+
+.hello-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hello {
+    letter-spacing: .5em;
+    font-size: 6em;
+    font-weight: lighter;
+    margin: 1.5em -3em -.2em -1.5em;
+}
+
+.hello-line-l {
+  margin-bottom: -14em;
+  margin-left: 10em;
+  margin-right: -25em;
+  width: 5vw;
+}
+
+.hello-line-r {
+  margin-bottom: -14em;
+  margin-left: -20em;
+  width: 5vw;
+}
+
+.about-me-box {
+  display: flex;
+  background-color: rgb(226, 226, 213);
+  box-shadow: 1px 1px 19px -2px rgba(0, 0, 0, 0.39);
+  margin-bottom: 5rem;
+}
+
+.profile-img {
+    margin: 3em 0 -5em 8em;
+    box-shadow: 1px 1px 19px -2px rgba(0, 0, 0, 0.39);
+    position: relative;
+    z-index: 2;
+}
+
+.about-me {
+    text-align: center;
+    line-height: 1.5em;
+    letter-spacing: .2em;
+    margin: 6em 0 0 2em;
+    font-size: 1.5em;
+}
+
+.wave-line {
+    width: 55vw;
+    margin: -1em 0 0 .2em;
+    position: absolute;
+    z-index: 1;
+}
+
+.work-headline-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.work-headline {
+  letter-spacing: .5em;
+  font-size: 6em;
+  font-weight: lighter;
+  margin: 1.5em -3em -.2em -1.5em;
+}
+
+.work-line-l {
+  margin-bottom: -14em;
+  margin-left: 10em;
+  margin-right: -25em;
+  width: 5vw;
+}
+
+.work-line-r {
+  margin-bottom: -14em;
+  margin-left: -20em;
+  width: 5vw;
+}
+
+.work-box {
+  display: flex;
+  background-color: rgb(226, 226, 213);
+  box-shadow: 1px 1px 19px -2px rgba(0, 0, 0, 0.39);
+  margin-bottom: 3rem;
+}
+
+.work {
+  text-align: center;
+  line-height: 1.5em;
+  letter-spacing: .2em;
+  margin: 0 0 0 2em;
+  font-size: 1.5em;
+  padding: 5em;
+}
+
+.skill-headline-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill-headline {
+  letter-spacing: .5em;
+  font-size: 6em;
+  font-weight: lighter;
+  margin: 1.5em -3em -.2em -1.5em;
+}
+
+.skill-line-l {
+  margin-bottom: -14em;
+  margin-left: 10em;
+  margin-right: -25em;
+  width: 5vw;
+}
+
+.skill-line-r {
+  margin-bottom: -14em;
+  margin-left: -20em;
+  width: 5vw;
+}
+
+.skill-box {
+  display: flex;
+  background-color: rgb(226, 226, 213);
+  box-shadow: 1px 1px 19px -2px rgba(0, 0, 0, 0.39);
+  margin-bottom: 3rem;
+}
+
+.skills {
+  text-align: center;
+  line-height: 1.5em;
+  letter-spacing: .2em;
+  margin: 0 0 0 2em;
+  font-size: 1.5em;
+  padding: 5em;
+}
+
+.footer-contact {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    letter-spacing: .2em;
+    margin-top: 10em;
+}
+
+.bottom-contacts {
+    background-color: rgb(226, 226, 213);
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    letter-spacing: .15em;
+}
+
+.bottom-contacts li {
+    display: inline-block;
+    justify-content: space-around;
+    background-color: rgb(226, 226, 213);
+    text-decoration: none;
+    margin: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.bottom-contacts a {
+    text-decoration: none;
+    color: #000000;
+    padding: .5rem;
+  }
+
+  .bottom-contacts a:hover{
+    color: #000000;
+    background-color: #9da996;
+  }
