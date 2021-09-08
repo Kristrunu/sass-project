@@ -1,0 +1,22 @@
+/* Here comes only the base styling of the website */
+
+html {
+    scroll-behavior: smooth;
+    width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+
+body {
+    font-family: 'made_bon_voyage_thin','Cormorant Garamond', serif;
+    border: 1px;
+    background-color: $background-color;
+}
+
+.main {
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1440px;
+    background-color: $secondary-color;
+}
+

@@ -1,0 +1,11 @@
+
+/* Here I import all the scss files so they will convert to a css style sheet */
+
+@import "sass/typography";
+@import "sass/variables";
+@import "sass/mixin";
+
+@import "sass/base";
+@import "sass/header";
+@import "sass/main";
+@import "sass/footer";

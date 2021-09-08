@@ -1,0 +1,40 @@
+
+/* Here are the imported fonts and the font styles for each text element */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap'); 
+
+@font-face {
+  font-family: 'made_bon_voyage_thin';
+  src: url('/Fonts/made_bon_voyage_thin-webfont.woff2') format('woff2'),
+       url('/Fonts/made_bon_voyage_thin-webfont.woff') format('woff');
+  font-weight:lighter;
+  font-style: normal;
+  }
+
+  h1 {
+    font-size: 6rem;
+    letter-spacing: 2rem;
+    font-weight: lighter;
+    text-align: center;
+    padding-left: 2rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    letter-spacing: .5rem;
+    font-weight: lighter;
+    text-align: center;
+    padding-left: .5rem;
+  }
+
+  p {
+    text-align: center;
+    line-height: 1.5em;
+    letter-spacing: .2em;
+    font-size: 1.5em;
+    padding-left: .2em;
+  }
+
+/* The padding-left is there because the letter-spacing leaves 
+the same amount of space after the last letter of the word, so to 
+even that out I add the same amount of padding on the left */
